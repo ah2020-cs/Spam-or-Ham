@@ -1,2 +1,12 @@
-# Spam-or-Ham
-We implemented a machine learning model to predict whether a message is spam or not. Furthermore, we created a system that upon receipt of an email message, it will automatically flag it as spam or not, based on the prediction obtained from the machine learning model.
+
+# Spam or Ham Detection
+
+# Summary
+
+This is a machine learning model to predict whether a message is spam or not. After an email has been recieved it will analyze if the contents are spam or not and return results to the original sender. 
+  
+  -AWS services used: S3, SES, SageMaker, Lambda, Cloudfront 
+    
+- Architecture Diagram
+
+![Overview](overview.png)
